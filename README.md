@@ -4,7 +4,7 @@ A simple weather app built using ReactJS components which displays the weather o
 
 # Features
 
--> Displays the city name, country, temperature, windspeeed, and cloud information.
+-> Displays the city name, country, temperature, wind speeed, and cloud information.
 -> Uses OpenWeather API for real-time data.
 
 # Languages Used
@@ -12,4 +12,8 @@ A simple weather app built using ReactJS components which displays the weather o
 -> React JS for making components.
 -> HTML
 -> CSS for styling
+
+# Link
+
+-> https://weather-app-nine-rust-23.vercel.app/
 
