@@ -1,0 +1,30 @@
+.weatherwrapper{
+    display: flex;
+    justify-content: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.weathercontainer{
+    color: rgb(138, 138, 138);
+    background-color: black;
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+    font-family: "Kanit",sans-serif;
+    text-align: center;
+    padding: 2em;
+    width: min(500px,100vw);
+    margin: 30px 0px 0px 0px;
+    width: 400px;
+    border: 2px solid rgb(49, 49, 49);
+    border-radius: 30px;
+    box-shadow: 0px 0px 100px 5px rgba(255, 216, 118, 0.59);
+
+    max-width: 80vw;
+}
+
+.place{
+    font-size: 2em;
+}

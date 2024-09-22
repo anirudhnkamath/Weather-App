@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.searchdiv{
+    display: grid;
+    place-content: center;
+    background-color: black;
+}
+
+.searchdiv form{
+    display: flex;
+    flex-direction: row;
+}
+
+.searchdiv form input{
+    background-color: transparent;
+    color: gray;
+    text-align: center;
+    border: 1px solid rgba(99, 99, 99, 0.64);
+    border-radius: 10px 0 0 10px;
+    padding: 0.5em 1em;
+    outline: none;
+}
+
+.searchdiv form button{
+    background-color: gray;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 0 10px 10px 0;
+    padding: 0.5em 1em;
+    transition: all 0.3s;
+    border-left: none;
+    font-family: "Kanit", sans-serif;
+}
+
+.searchdiv form button:hover{
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+}
